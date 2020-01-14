@@ -6,10 +6,10 @@
 
 ## Example
 ```javascript
-import psdPlugins from 'psd-plugins'
+import ToPng from '@peterting/psd-plugin';
 
 // Get original size png.
-psdPlugins.toPng(psdNode.layer.image.toBase64()).then((imgSrc) => {
+ToPng(psdNode).then((imgSrc) => {
 	console.log(imgSrc); // data:image/png;base64,Iekdkad.....
 });
 ```
