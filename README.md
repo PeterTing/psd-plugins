@@ -9,7 +9,7 @@
 import psdPlugins from 'psd-plugins'
 
 // Get original size png.
-psdPlugins.toPng(psdNode.layer.image.toPng()).then((imgSrc) => {
+psdPlugins.toPng(psdNode.layer.image.toBase64()).then((imgSrc) => {
 	console.log(imgSrc); // data:image/png;base64,Iekdkad.....
 });
 ```
