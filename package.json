@@ -1,4 +1,20 @@
 {
-	"name": "@peterting/psd-plugin",
-	"version": "1.0.0"
+  "name": "@peterting/psd-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterTing/psd-plugins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeterTing/psd-plugins/issues"
+  },
+  "homepage": "https://github.com/PeterTing/psd-plugins#readme"
 }
