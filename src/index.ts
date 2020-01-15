@@ -48,4 +48,4 @@ const toPng = async (node: any, psImageWidth: number, psImageHeight: number): Pr
   return searchForImage(node, psImageWidth, psImageHeight);
 };
 
-export default toPng;
+export { toPng };

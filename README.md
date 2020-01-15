@@ -2,6 +2,7 @@
 
 ## What does these plugins do ?
 1. Allow exporting png with original size. (Transparent part will not be trimmed.)
+
 Todo: Allow export combined png(s) from chosen group.
 
 
@@ -10,10 +11,10 @@ Todo: Allow export combined png(s) from chosen group.
 
 ## Example
 ```javascript
-import ToPng from '@peterting/psd-plugin';
+import PsdPlugin from '@peterting/psd-plugin';
 
 // Get original size png.
-ToPng(psdNode, psOriginalWidth, psOriginalWidth).then((imgSrc) => {
+PsdPlugin.toPng(psdNode, psOriginalWidth, psOriginalWidth).then((imgSrc) => {
 	console.log(imgSrc); // data:image/png;base64,Iekdkad.....
 });
 ```
