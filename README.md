@@ -1,6 +1,6 @@
-# Some PSD.js plugins
+# PSD.js plugin
 
-## What does these plugins do ?
+## What does this plugin do ?
 1. Allow exporting png with original size. (Transparent part will not be trimmed.)
 
 Todo: Allow export combined png(s) from chosen group.
